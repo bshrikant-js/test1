@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 8.2.0.final using JasperReports Library version 6.20.3-415f9428cffdb6805c6f85bbb29ebaf18813a2ab  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sample_report_cut_text" pageWidth="595" pageHeight="842" whenNoDataType="AllSectionsNoDetail" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="5cf2fa44-d68b-4bd8-ae50-2b6c2a0fa492">
+	<property name="ireport.jasperserver.url" value="https://infra-platforms-na2-1416-bshrikan.pfa.jaspersoft.com/jasperserver-pro/"/>
+	<property name="ireport.jasperserver.user" value="superuser"/>
+	<property name="ireport.jasperserver.report.resource" value="/public/TextCut_Issue__ICON_files/main_jrxml"/>
+	<property name="ireport.jasperserver.reportUnit" value="/public/TextCut_Issue__ICON"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band splitType="Stretch"/>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="169" splitType="Stretch">
+			<textField textAdjust="StretchHeight">
+				<reportElement x="0" y="110" width="180" height="20" uuid="0bb4d273-98f7-4317-ba39-17514a764e18"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA["Date/Time (local) of Transaction"]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>
